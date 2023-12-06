@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu perfil do GitHub. Aqui está um pouco sobre mim:
 
-- 🔭  Acabei de concluir um curso TI-Sistemas, e agora estou trabalhando em um projeto para o meu portfólio.
+- 🔭  Concluir um curso TI-Sistemas, e agora estou trabalhando em um projeto para o meu portfólio.
 - 🌱 Atualmente, estou aprofundando e aprimorando meus conhecimentos em várias linguagens e tecnologias.
 - 👯 Estou sempre aberto a colaborações e contribuições em projetos de código aberto.
 - 💬 Sinta-se à vontade para entrar em contato comigo para discutir qualquer projeto ou apenas compartilhar conhecimento!
