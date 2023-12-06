@@ -14,10 +14,6 @@ Bem-vindo ao meu perfil do GitHub. Aqui está um pouco sobre mim:
 - Banco de dados: SQL server.
 - Ferramentas de Desenvolvimento: Visual Studio Code, NetBeans, etc.
 
-## Projetos Notáveis
-
-- [Portifólio Criativo Digital](https://github.com/Enickin/Enickin/tree/main/criativodigital): O projeto 'Criativo Digital' consiste em um site onde os candidatos podem se inscrever para vagas na empresa fictícia 'Janela Digital' usando um formulário interativo. Além disso, o site oferece informações sobre a empresa e seus serviços.
-- [Relatório Portifólio](https://github.com/Enickin/Enickin/blob/main/Relatório%20Criativo%20Digital.pdf): Este relatório documenta a construção do site "Janela Digital" para o projeto "Criativo Digital". Ele aborda a estrutura do site, a integração com uma base de dados MySQL composta por três tabelas e fornece recomendações para melhorias futuras.
 
 ## Obrigado por visitar o meu perfil! 😄
 
