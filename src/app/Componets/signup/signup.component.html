@@ -1,0 +1,70 @@
+<div class="outer">
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+        <div class="panel border bg-white">
+          <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold">Sign Up</h3>
+          </div>
+          <div class="panel-body p-3">
+            <form [formGroup]="signUpForm">
+
+              <div class="form-groupo pt-3">
+                <div class="input-field" [class.error]="signUpForm.controls['firstName'].dirty && signUpForm.hasError('required', 'firstName')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="firstName" type="text" placeholder="FirstName">
+                </div>
+              </div>
+              <small *ngIf="signUpForm.controls['firstName'].dirty && signUpForm.hasError('required', 'firstName')" class="text-danger">*firstName is required</small>
+
+              <div class="form-groupo pt-3">
+                <div class="input-field" [class.error]="signUpForm.controls['lastName'].dirty && signUpForm.hasError('required', 'lastName')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="lastName" type="text" placeholder="LastName">
+                </div>
+              </div>
+              <small *ngIf="signUpForm.controls['lastName'].dirty && signUpForm.hasError('required', 'lastName')" class="text-danger">*lastName is required</small>
+
+              <div class="form-groupo pt-3">
+                <div class="input-field" [class.error]="signUpForm.controls['email'].dirty && signUpForm.hasError('required', 'email')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="email" type="text" placeholder="E-mail">
+                </div>
+              </div>
+              <small *ngIf="signUpForm.controls['email'].dirty && signUpForm.hasError('required', 'email')" class="text-danger">*email is required</small>
+
+              <div class="form-groupo pt-3">
+                <div class="input-field" [class.error]="signUpForm.controls['userName'].dirty && signUpForm.hasError('required', 'userName')">
+                  <span class="fa fa-user p-2"></span>
+                  <input formControlName="userName" type="text" placeholder="UserName">
+                </div>
+              </div>
+              <small *ngIf="signUpForm.controls['userName'].dirty && signUpForm.hasError('required', 'userName')" class="text-danger">*userName is required</small>
+
+              <div class="form-groupo pt-3">
+                <div class="input-field" [class.error]="signUpForm.controls['password'].dirty && signUpForm.hasError('required', 'password')">
+                  <span class="fa fa-lock p-2"></span>
+                  <input formControlName="password" [type]="type" placeholder="Password">
+                  <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
+                </div>
+              </div>
+              <small *ngIf="signUpForm.controls['password'].dirty && signUpForm.hasError('required', 'password')" class="text-danger">*password is required</small>
+
+              <button type="submit" class="btn btn-primary btn-block mt-4 w-100" (click)="onSingup()">Sign Up</button>
+              <div class="text-center pt-4 text-muted">Arleady have account? <a id="forget" routerLink="/login">Login</a></div>
+            </form>
+          </div>
+          <!--<div class="mx-3 my-2 py-2 bordert">
+            <div class="text-center py-3">
+              <a href="http://www.facebook.com" target="_blank" class="px-2"> <img src="https://i.postimg.cc/xT2t7tXf/logo-facebookpng-32240.png" alt=""></a>
+              <a href="http://www.google.com" target="_blank" class="px-2"> <img src="https://i.postimg.cc/ZRzdRDt0/pngimg-com-google-PNG19633.png" alt=""></a>
+              <a href="http://www.github.com" target="_blank" class="px-2"> <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" alt=""></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
